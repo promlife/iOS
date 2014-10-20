@@ -31,14 +31,11 @@
 
 - (void)addsharedsdk{
     [ShareSDK ssoEnabled:YES];
-//    [ShareSDK registerApp:@"783b9ac2495"];
-//    [ShareSDK connectSinaWeiboWithAppKey:@"568898243" appSecret:@"38a4f8204cc784f81f9f0daaf31e02e3" redirectUri:@"http://www.sharesdk.cn"];
-//    [Parse setApplicationId:@"pSr2dNiZUqcgxrINsyrgJa3vwLcKyATkubNfZ0iX"
-//                  clientKey:@"aiK1CTRUKjDukAyyKXHJ7ScTfnsLw5IupC8bg1vu"];
-    [ShareSDK registerApp:@"3d34be932a9e"];
-    [ShareSDK connectSinaWeiboWithAppKey:@"469123502" appSecret:@"18643717f764d1b9f6420b68a3551715" redirectUri:@"http://lgwindow.sdut.edu.cn"];
-    [Parse setApplicationId:@"pHE1Foqbc5Lp9aImVs6ysw7n5JDcWUZat0iUAjI4"
-                  clientKey:@"YaMeZuSUz3Fjp7ujAabg6h45lIMLVUoE3lP5auyD"];
+    [ShareSDK registerApp:@"783b9ac2495"];
+    [ShareSDK connectSinaWeiboWithAppKey:@"568898243" appSecret:@"38a4f8204cc784f81f9f0daaf31e02e3" redirectUri:@"http://www.sharesdk.cn"];
+    [Parse setApplicationId:@"pSr2dNiZUqcgxrINsyrgJa3vwLcKyATkubNfZ0iX"
+                  clientKey:@"aiK1CTRUKjDukAyyKXHJ7ScTfnsLw5IupC8bg1vu"];
+
 }
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
